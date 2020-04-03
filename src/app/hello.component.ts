@@ -8,3 +8,12 @@ import { Component, Input } from '@angular/core';
 export class HelloComponent  {
   @Input() name: string;
 }
+
+@Component({
+  selector: 'shit',
+  template: `<h1>Hello {{shit}}!</h1>`,
+  styles: [`h2 { font-family: Arial; }`]
+})
+export class ShitComponent  {
+  @Input() name: string;
+}
