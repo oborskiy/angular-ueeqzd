@@ -8,7 +8,7 @@ import { ShitComponent } from './hello.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent, HelloComponent, ShitComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

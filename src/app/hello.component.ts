@@ -11,7 +11,7 @@ export class HelloComponent  {
 
 @Component({
   selector: 'shit',
-  template: `<h1>Hello {{shit}}!</h1>`,
+  template: `<h2>shtComponent HELLO: {{name}} !</h2>`,
   styles: [`h2 { font-family: Arial; }`]
 })
 export class ShitComponent  {
